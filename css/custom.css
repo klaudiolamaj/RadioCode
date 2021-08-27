@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,300|Montserrat:700);
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+body{
+    overflow-x: hidden;
+	overflox-y:hidden;
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionPadding{
+    padding: 42px 0 42px;
+}
+.navbar-default .navbar-nav>li>a.rrethiFilledBtn {
+    color: #fff;
+    background-color:#999;
+    border:1px solid #999;
+    padding: 10px 17px 13px 13px;
+    transition:0.2s ease-in;
+    
+}
+.navbar-default .navbar-nav>li>a	.rrethiFilledBtn:hover {
+    color: #000;
+    background-color:#fff;
+    border:1px solid #fff;
+   padding: 10px 17px 13px 13px;
+    
+    
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header {
+    background: url(images/background/hero1.jpg) no-repeat 50% 50% fixed;
+     background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+    height:951px;
+}
+
+.header-right{
+    text-align:center;
+    position: relative;
+    margin-top:70px;
+}
+.img-center{
+margin-left:auto;
+margin-right:auto;
+}
+.musilogos{
+margin-top:90px;
+transition:0.2s ease-in;
+}
+.musilogos img:hover{
+opacity:0.8;
+}
+.gap40{
+height:40px;
+clear:both;
+}
+.header-right .bgImageTitle h1.h1-Bold{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    line-height: 3px;
+	color:#fff;
+}
+.header-right .bgImageTitle h1.h1-Bold span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -2px;
+    
+}
+.header-right .bgImageTitle h1.h1-BG{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+	color:#fff;
+}
+.header-right .bgImageTitle h1.h1-BG span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    background-color:#ff3333;
+    color:#fff;
+
+    padding:2px 5px 2px 5px;
+}
+
+
